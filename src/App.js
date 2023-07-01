@@ -1,6 +1,6 @@
   import React from "react";
   import { Route, Routes } from "react-router-dom";
-  import Home from "./pages/Home/Home";
+  import Project from "./pages/Home/Project";
   import Contact from "./pages/contact/Contact";
   import Shop from "./pages/shop/Shop";
   import About from "./pages/about/About";
@@ -12,7 +12,7 @@ import { AppProvider } from "./Components/Appcontext";
     return (
       <AppProvider>
         <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/Project" element={<Project />} />
         <Route path="/Shop" element={<Shop />} />
         <Route path="/Shop/:id" element={<Product_detail />} />
         <Route path="/Contact" element={<Contact />} />

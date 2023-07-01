@@ -2,8 +2,7 @@ import Header from "../../Components/header/Header";
 import { Link } from "react-router-dom";
 import Footer from "../../Components/footer/Footer";
 import "./Home.css";
-import React, { useEffect, useState } from 'react';
-
+import React, { useEffect, useState } from 'react'
 import ImageSlider from "./ImageSlider";
 import Slide1 from "./imgs/Slide1.png";
 import Slide2 from "./imgs/Slide2.png";
@@ -32,7 +31,7 @@ import Col from 'react-bootstrap/Col';
 import Context from "../../Components/Context/Context";
 import Section6 from "../section6/Section6";
 import { AppContext } from "../../Components/Appcontext";
-export default function Home() {
+export default function Project() {
     const slides = [
         { url: Slide1, title: 'Slide 1' },
         { url: Slide2, title: 'Slide 2' },
