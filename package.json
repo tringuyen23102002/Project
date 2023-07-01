@@ -2,7 +2,7 @@
     "name": "project",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://tringuyen23102002.github.io/project/",
+    "homepage": "https://tringuyen23102002.github.io/Project/",
     "dependencies": {
       "@fortawesome/free-solid-svg-icons": "^6.4.0",
       "@fortawesome/react-fontawesome": "^0.2.0",
