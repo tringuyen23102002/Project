@@ -1,0 +1,239 @@
+.footer {
+  font-family: 'Roboto';
+  width: 100%;
+  position: relative;
+}
+.copy_right {
+  position: absolute;
+  bottom: -40px;
+  right: 30px;
+  color: #FFF;
+  font-size: 12px;
+}
+.footer-bg {
+  width: 100%;
+  height: 450px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.footer-content {
+  position: relative;
+  z-index: 1;
+}
+
+.footer-content .footer_CTA {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap; 
+  padding-top: 40px;
+}
+.footer-content .footer_CTA .Logo_phone {
+  display: none;
+}
+
+.footer-content .footer_list {
+  width: 50%;
+  padding: 20px;
+}
+
+.footer-content .footer_list h3 {
+  color: #FFF;
+  font-size: 28px;
+  line-height: 44px;
+  font-weight: 600;
+}
+
+.footer-content .footer_list .list_input {
+  display: flex;
+  width: 100%;
+  padding: 8px;
+  align-items: center;
+  border-bottom: 1px solid var(--neutral-100, #CFCFCF);
+}
+.footer-content .footer_list .list_input button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.footer-content .footer_list .list_input .input_ed {
+  color: var(--neutral-100, #CFCFCF);
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  font-size: 11px;
+  font-family: Roboto;
+  font-weight: 600;
+  line-height: 16px;
+  }
+
+.footer-content .footer_list .list_input .input_ed:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+.footer-content .footer_img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border-radius: 100px;
+  opacity: 0.8;
+  
+}
+.footer-content .footer_img img {
+  width: 190.685px;
+  height: 190px;
+  background: var(--primary-red-100, #FB93BE);
+  border-radius: 100px;
+  box-shadow: 9px 8px 24px 0px rgba(221, 120, 229, 0.50);
+  }
+
+.footer-info {
+  padding: 20px;
+}
+
+.footer-info .footer_address {
+  margin-bottom: 20px;
+}
+
+.footer-info .footer_menu {
+  margin-top: 20px;
+}
+
+.footer-info .menu_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-info .menu_info .info_1 a,
+.footer-info .menu_info .info_2 a {
+  margin-right: 10px;
+}
+
+.footer-info .menu_info .info_3 .social {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-info .menu_info .info_3 .social::after {
+  content: '|';
+  margin-left: 10px;
+}
+.footer-info {
+  width: 100%;
+  display: flex;
+}
+.footer-info .footer_address {
+  display: flex;
+  width: 50%;
+}
+.footer-info .footer_menu {
+  width: 50%;
+}
+.footer-info .footer_menu .menu_info {
+  text-decoration: none;
+  color: #FFF;
+}
+.footer-info .footer_menu .menu_info .info_1 a{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 16px;
+  font-family: 'Roboto';
+  line-height: 24px;
+}
+.footer-info .menu_info .info_2 .social {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.footer-info .menu_info .info_2 .social::after {
+  content: '';
+  margin-left: 10px;
+}
+.footer-info .menu_info .info_2 a {
+  font-size: 24px;
+}
+.footer-info .footer_menu .menu_info .info_2 span {
+  color: #D91165;
+}
+.footer-info .footer_address .footer_logo {
+  width: 20%;
+  margin-right: 20px;
+}
+
+.footer-info .footer_address .footer_logo img {
+  width: 100%;
+}
+.footer-info .footer_address .address_info {
+  width: 90%;
+}
+.footer-info .footer_address .address_info p {
+  font-size: 14px;
+  line-height: 8px;
+  color: #FFF;
+}
+
+@media screen and (max-width: 500px) { 
+  .footer-content .footer_img {
+    display: none;
+  }
+  .footer-content .footer_CTA {
+    width: 100%;
+    display: flex;
+  }
+  .footer-content .footer_CTA .footer_list  {
+    width: 100%;
+  }
+  .footer-info .footer_menu .menu_info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-info .menu_info .info_1 {
+    width: 50%;
+  }
+  .footer-info .menu_info .info_2 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .footer-info .footer_address .footer_logo {
+    display: none;
+  }
+  .footer-info .footer_address {
+    width: 100%;
+  }
+  .footer-info .footer_address .address_info {
+    width: 100%;
+  }
+  .footer-info .footer_address .address_info p {
+    line-height: 20px;
+  }
+  .footer-content .footer_CTA .logo_phone {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-info {
+    display: block;
+  }
+  .footer-content .footer_CTA .logo_phone .Logo_phone {
+    display: block;
+  }
+  .footer-info .footer_menu {
+    width: 100%;
+    display: block;
+  }
+  .footer-bg {
+    width: 100%;
+    height: 570px;
+  }
+}

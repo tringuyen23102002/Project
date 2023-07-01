@@ -1,0 +1,63 @@
+.checkout-info {
+    background: #FAFAFC;
+    padding: 120px 0px;
+  }
+  .card-header {
+    background: none;
+    border: none;
+  }
+  .col-md-7 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .card-header h4 {
+    color: var(--neutral-main, #242830);
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+  }
+  .btn-warning {
+    background: #DC206F;
+    color: #FFF;
+    border: none;
+  }
+  .btn-warning:hover {
+    background: #B5004C;
+    color: #FFF;
+  }
+  .btn-warning:active:after {
+    background: #B5004C;
+    color: #FFF;
+  }
+  @media screen and (max-width: 575px) {
+    .card {
+      width: 100%;
+      max-width: 100%;
+    }
+    .col-md-7-toggle {
+        display: none;
+      }
+      
+    .col-md-5-toggle {
+        display: block;
+        width: 100%;
+    }
+    .card-body .row > div {
+        width: 100%;
+      }
+  }
+  @media screen and (max-width: 435px) {
+    .btn-warning {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .btn-primary {
+        display: inline-block;
+        text-align: center;
+        width: 45%;
+        margin-top: 10px;   
+    }
+  }
+  

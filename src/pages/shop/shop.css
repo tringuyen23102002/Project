@@ -1,0 +1,21 @@
+.main_shop {
+    font-family: 'Roboto';
+    background: #FAFAFC;
+}
+.banner_shop {
+    width: 100%;
+}
+.banner_shop img {
+    width: 100%;
+}
+.shop_product .shop_title {
+    padding: 60px 4px   ;
+}
+.shop_product .shop_title h3 {
+    font-family: 'Roboto';
+    color: #242830;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
