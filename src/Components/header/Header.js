@@ -38,14 +38,14 @@ export default function Header(props) {
       </div>
       <div className="logo">
         <h1>
-          <Link to="/">
+          <Link to="/Project">
             <img src={Logo} />
           </Link>
         </h1>
         <nav>
           <ul className={toggle ? 'toggle' : ''}>
             <li>
-              <NavLink exact to="/" activeClassName="active">
+              <NavLink exact to="/Project" activeClassName="active">
                 Home
               </NavLink>
             </li>
