@@ -18,6 +18,12 @@
     font-weight: 600;
     line-height: 36px;
   }
+  .card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    width: 100%;
+}
   .btn-warning {
     background: #DC206F;
     color: #FFF;

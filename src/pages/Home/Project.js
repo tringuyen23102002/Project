@@ -267,7 +267,7 @@ export default function Project() {
                             <Section6 productItems={productItems} cartItems={cartItems} />
                             <Container>
                                 <div className="btn5">
-                                    <Link to="shop" className="CTA_5">
+                                    <Link to="/shop" className="CTA_5">
                                             View more
                                     </Link>
                                 </div>

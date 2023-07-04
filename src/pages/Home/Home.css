@@ -185,6 +185,11 @@ line-height: 24px;
   color: var(--neutral-white, #FFF);
   height: 37px;
 }
+.section2 .product .pro .s1 .s1-content button:hover {
+  background: #DC206F;
+  color: #FFF;
+  border: none;
+}
 
 .section2 .product .pro .s1:hover .s1-content button {
   opacity: 1;
@@ -310,6 +315,11 @@ line-height: 24px;
   background: var(--neutral-main, #242830);
   color: var(--neutral-white, #FFF);
   height: 37px;
+}
+.section3 .product .pro .s1 .s1-content button:hover {
+  background: #DC206F;
+  color: #FFF;
+  border: none;
 }
 
 .section3 .product .pro .s1:hover .s1-content button {
@@ -511,7 +521,7 @@ line-height: 24px;
   } 
   .section2 .product .pro .s1 .s1-content {
     position: absolute;
-    bottom: 0%;
+    bottom: -12%;
     left: 0;
     right: 0;
     background: rgba(255, 255, 255, 0.50);
@@ -521,6 +531,9 @@ line-height: 24px;
     flex-direction: column;
     gap: 5px;
     transition: bottom 0.3s;
+  }
+  .section2 .product .pro .s1 .s1-content p {
+    line-height: 2px;
   }
   .section2 .product .pro .s1 .s1-content button {
     opacity: 1;
@@ -572,7 +585,7 @@ line-height: 24px;
 }
   .section3 .product .pro .s1 .s1-content {
     position: absolute;
-    bottom: 0%;
+    bottom: -12%;
     left: 0;
     right: 0;
     background: rgba(255, 255, 255, 0.50);
@@ -583,12 +596,14 @@ line-height: 24px;
     gap: 5px;
     transition: bottom 0.3s;
   }
+  .section3 .product .pro .s1 .s1-content p {
+    line-height: 2px;
+  }
   .section3 .product .pro .s1 .s1-content button {
     opacity: 1;
     transition: opacity 0.3s;
   }
   .section3 .product .pro .s1 .s1-content:hover {
-    background: #DC206F;
     color: #FFF;
   }
   
@@ -599,6 +614,9 @@ line-height: 24px;
 @media (max-width: 480px) {
   .section4 .left4 .pro4 {
     height: 144px;
+  }
+  .section4 {
+    padding: 40px 0px;
   }
   .section4 .left4 .pro4 img{
     width: 220px;

@@ -103,7 +103,9 @@ export const AppProvider = ({ children }) => {
             },
         ]
     )
-    
+    const updateProducts = (updatedProducts) => {
+        setProducts(updatedProducts);
+    };
         
     
 
@@ -145,7 +147,7 @@ export const AppProvider = ({ children }) => {
 
     const quanlity = (cart.length)
     return (
-        <AppContext.Provider value={{ show, count, setShow, setCount, products, setProducts, addCart, cart, setCart, quanlity, changqty, delete1 }}>
+        <AppContext.Provider value={{ show, count, setShow, setCount, products, setProducts, addCart, cart, setCart, quanlity, changqty, delete1, updateProducts }}>
             {children}
         </AppContext.Provider>
     )

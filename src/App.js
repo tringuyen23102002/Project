@@ -7,6 +7,7 @@
   import Cart from "./pages/Cart/Cart";
   import Checkout from "./pages/checkout/Checkout";
   import Product_detail from "./pages/product_detail/Product_detail";
+  import Detail from "./pages/details/Detail";
 import { AppProvider } from "./Components/Appcontext";
   export default function App() {
     return (
@@ -14,7 +15,7 @@ import { AppProvider } from "./Components/Appcontext";
         <Routes>
         <Route path="/Project" element={<Project />} />
         <Route path="/Shop" element={<Shop />} />
-        <Route path="/Shop/:id" element={<Product_detail />} />
+        <Route path="/Shop/:id" element={<Detail />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/About" element={<About />} />
         <Route path="/product_detail" element={<Product_detail />} />
