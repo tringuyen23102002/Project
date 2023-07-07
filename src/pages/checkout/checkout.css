@@ -6,6 +6,14 @@
     background: none;
     border: none;
   }
+  .col-md-4 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .col-md-6 {
+    flex: 0 0 auto;
+    width: 100%;
+}
   .col-md-7 {
     display: flex;
     justify-content: flex-end;
